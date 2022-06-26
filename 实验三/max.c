@@ -82,12 +82,12 @@ int main()
 {
     time_t t;
     struct tm * lt;
-    time (&t);//获取Unix时间戳。
-    lt = localtime (&t);//转为时间结构。
+    time (&t);
+    lt = localtime (&t);
     int begin,end;
 
     int i;
-    printf("请输入物品类别个数:\n");
+    printf("请输入物品个数:\n");
     scanf("%d",&n);
     struct goods  good[n];
     int w[n];//物品的重量
@@ -125,6 +125,6 @@ int main()
     printf("合计总价值为: %f\n",MaxValue);
 
     printf("Running：%dms\n", end-begin);
-    time (&t);//获取Unix时间戳。
-    lt = localtime (&t);//转为时间结构
+    time (&t);
+    lt = localtime (&t);
 }

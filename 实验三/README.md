@@ -22,7 +22,9 @@
 ## 实验预期结果与实际结果
 
 实验过程及实验结果（C版）
-
+将m值设置为1000，计算得到其时间折线图如下：
+![折线图](https://github.com/gggrdinosaur/homewrok_template/blob/main/%E5%AE%9E%E9%AA%8C%E4%B8%89/%E6%8A%98%E7%BA%BF%E5%9B%BE.png)
+通过算法测试，与动态规划法相比，贪心算法的时间复杂度更优
 ```bash
 gitpod /workspace/homewrok_template (main) $ gcc -o max.exe max.c
 gitpod /workspace/homewrok_template (main) $ ./max.exe 

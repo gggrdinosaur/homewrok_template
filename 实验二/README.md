@@ -25,7 +25,9 @@
 
 ## 实验预期结果与实际结果
 
-
+通过算法测试、对比，得到其时间折线图为：
+![折线图](https://github.com/gggrdinosaur/homewrok_template/blob/main/%E5%AE%9E%E9%AA%8C%E4%BA%8C/%E6%8A%98%E7%BA%BF%E5%9B%BE.png)
+可以看到，随着输入规模的增大，其算法时间复杂度也在增大
 
 ```bash
 gitpod /workspace/homewrok_template (main) $ gcc -o max.exe max.c

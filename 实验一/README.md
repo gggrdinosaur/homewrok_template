@@ -22,7 +22,14 @@
  以冒泡排序、合并排序和快速排序算法为例，以生成的随机数作为实验中使用的测试数据。对每个算法，记录程序执行中随着测试数据增加算法基本操作执行次数，分析并以图形方式展现增长率；对以上三个排序算法，对比随着测试数据增加算法增长率变化趋势；测试、验证、对比算法时间复杂度的理论结论。
 ## 实验预期结果与实际结果
 
-实验过程及实验结果（C版）
+通过分析实验结果可知：冒泡排序是最慢的，其次是归并排序，最快的是快速排序。
+其比较结果折线图如图所示：
+![折线图](https://github.com/gggrdinosaur/homewrok_template/blob/main/%E5%AE%9E%E9%AA%8C%E4%B8%80/%E6%8A%98%E7%BA%BF%E5%9B%BE.png)
+通过比较两次不同随机数生成的测试数据排序算法，可知，不论其输入数据内容如何变化，只要其输入规模不变，其比较次数不变
+![100个数据](https://github.com/gggrdinosaur/homewrok_template/blob/main/%E5%AE%9E%E9%AA%8C%E4%B8%80/100.png)
+![100个数据](https://github.com/gggrdinosaur/homewrok_template/blob/main/%E5%AE%9E%E9%AA%8C%E4%B8%80/100-1.png)
+
+冒泡排序的时间复杂度为O(n^2)，而归并排序和快速排序的时间复杂度都为O(nlogn)
 
 ```bash
 gitpod /workspace/homewrok_template (main) $ gcc -o max.exe max.c
